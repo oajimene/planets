@@ -1,0 +1,109 @@
+    1  git --version
+    2  config --global user.name "oajimene"
+    3  git config --global  user.name "oajimene"
+    4  git config --global user.email "oscar.jimenezgo@hotmail.com"
+    5  git config --global core.autocrlf input
+    6  git config --global core.editor "nano"
+    7  git config -h
+    8  cd Desktop
+    9  mkdir planets
+   10  cd planets
+   11  git init
+   12  ls
+   13  ls -a
+   14  git status
+   15  mkdir moons
+   16  cd moons
+   17  git init
+   18  ls -a
+   19  git status
+   20  cd ..
+   21  nano
+   22  ls
+   23  cat mars.txt
+   24  git status
+   25  git add mars.txt
+   26  git status
+   27  git commit -m "Start notes on Mars a base."
+   28  git status
+   29  git log
+   30  nano mars.txt
+   31  git status
+   32  git diff
+   33  git commit -m "Add waht happened after the water ran out"
+   34  git add mars.txt
+   35  git commit -m "Add waht happened after the water ran out"
+   36  nano mars.txt
+   37  git diff
+   38  git add mars.txt
+   39  git diff
+   40  git diff --staged
+   41  git commit -m "problem fixed"
+   42  git status
+   43  git log
+   44  git log -l
+   45  got log -1
+   46  git log -1
+   47  git log --oneline
+   48  git log --oneline --all --decorate
+   49  mkdir directory
+   50  git status
+   51  git add directory
+   52  git status
+   53  cd directory
+   54  ls
+   55  ls -a
+   56  touch a b c b
+   57  cd ..
+   58  git status
+   59  git add directory
+   60  git status
+   61  nano mars.txt
+   62  cat mars.txt
+   63  nano venus.txt
+   64  cat venus.txt
+   65  git add mars.txt
+   66  git add venus.txt
+   67  git commit -m "notes on our trip to venus"
+   68  git log
+   69  cd..
+   70  cd..
+   71  cd ..
+   72  mkdir bio
+   73  cd bio
+   74  git init
+   75  ls .a
+   76  ls -a
+   77  cd .git
+   78  ls
+   79  ls -a
+   80  cd ..
+   81  nano me.txt
+   82  git add me.txt
+   83  git commit -m "My cravings"
+   84  cd ..
+   85  cd planets
+   86  nano mars. txt
+   87  nano mars.txt
+   88  git diff HEAD
+   89  git diff HEAD mars.txt
+   90  git diff HEAD~1 mars.txt
+   91  git diff HEAD~2 mars.txt
+   92  git show
+   93  git show HEAD~2 mars.txt
+   94  git diff HEAD~2 mars.txt
+   95  git diff 85ca4bfa06c15f03beb04580d0cbcfb55d852215
+   96  git log
+   97  git status
+   98  git diff mars.txt
+   99  cat mars.txt
+  100  git checkout HEAD mars.txt
+  101  cat mars.txt
+  102  git log mars.txt
+  103  git checkout 85ca4bfa06c15f03beb04580d0cbcfb55d852215 mars.txt
+  104  cat mars.txt
+  105  git status
+  106  git checkout HEAD mars.txt
+  107  git status
+  108  cat mars.txt
+  109  history > gitclass.txt
