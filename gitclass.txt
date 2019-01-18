@@ -107,3 +107,81 @@
   107  git status
   108  cat mars.txt
   109  history > gitclass.txt
+  110  git add gitclass.txt
+  111  git status
+  112  cd ..
+  113  mkdir results
+  114  touch a.dat b.dat results/a.out results/b.out
+  115  ls
+  116  cd results
+  117  ls
+  118  cd ..
+  119  mkdir class
+  120  cd class
+  121  git init
+  122  mkdir results
+  123  touch a.dat b.dat results/a.out results/b.out
+  124  git stauts
+  125  git status
+  126  touch c.dat
+  127  git status
+  128  ls
+  129  cd result
+  130  cd results
+  131  ls
+  132  cd ..
+  133  ls -a
+  134  cd results
+  135  ls -a
+  136  cd ..
+  137  nano .gitignore
+  138  git status
+  139  git add ,gitignore
+  140  git add .gitignore
+  141  git commit -m "ignore data files and the results folder"
+  142  git status
+  143  git add a.dat
+  144  git status --ignored
+  145  mkdir .pics
+  146  ls
+  147  ls -a
+  148  rm .pics
+  149  rmdir .pics
+  150  ls -a
+  151  cd ..
+  152  cd planets
+  153  git remote add origin https://github.com/oajimene/planets.git
+  154  remote -v
+  155  git remote =v
+  156  git remote -v
+  157  git push origin master
+  158  git pull origin master
+  159  git pull origin master
+  160  cat pluto.txt
+  161  cat pluto
+  162  git pull origin master
+  163  cat pluto.txt
+  164  ls
+  165  ls -a
+  166  ls -lahtrc
+  167  cd directory
+  168  ls
+  169  cd ..
+  170  nano mars.txt
+  171  git add mars.txt
+  172  git commit -m "added a last conclusion about humidifiers"
+  173  git push origin master
+  174  nano mars.txt
+  175  git add mars.txt
+  176  git commit -m "I made a commitment"
+  177  git push origin master
+  178  cd ..
+  179  cd class
+  180  ls
+  181  cd results
+  182  ls
+  183  cd ..
+  184  cd ..
+  185  cd planets
+  186  ls
+  187  history > gitclass.txt
